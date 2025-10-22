@@ -26,8 +26,8 @@ public class ShoppingOperations {
 		logger.info("Billing Service invoked");
 		logger.info("Back to Shopping Service");
 		
-		//return "Shopping Service :" + msg;
-		return "Shopping Service :";
+		return "Shopping Service :" + msg;
+		//return "Shopping Service :";
 		
 	}
 }

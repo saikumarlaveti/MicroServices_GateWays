@@ -22,7 +22,7 @@ public class BillingOperations {
 	public String doShopping() {
 		logger.info("Billing Operations just Started");
 		//invoke another ms billing
-		String msg = template.getForObject("http://localhost:9903/PaymentMS/payment",String.class);
+		String msg = template.getForObject("http://localhost:9093/PaymentMS/payment",String.class);
 		logger.info("Payment Service invoked");
 		logger.info("Back to Billing Service");
 		
